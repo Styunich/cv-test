@@ -1,12 +1,14 @@
 
 body {
     font: normal 16px 'ABeeZee', sans-serif, 'Inconsolata', monospace, 'Josefin Sans', sans-serif;
-    background-color: #f0faef;
+    background-color: 255, 255, 255;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     min-height: 100vh;
     }
+
+    /*#f0faef;*/
 
 .header {
     background-color: rgb(152, 219, 150);
@@ -121,10 +123,12 @@ li::before {
 }
 
 .card {
-    border-style: inset;
+    border-style: double;
     border-color:rgb(105, 223, 101) rgb(214, 91, 128) rgb(214, 91, 128) rgb(105, 223, 101);
+    Border-radius: 10px;
     display: table;
     float: left;
+    border-width: 7px;
     width: 350px;
     height: 150px;
     margin: 10px 100px 50px 0px;
